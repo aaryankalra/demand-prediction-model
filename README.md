@@ -8,6 +8,17 @@ Achieved MAE of 12.84, which is a 59% improvement over the naive baseline.
 
 Along with target's mean as ~104, it makes model's prediction off by ~12% on average.
 
+### Steps To Run
+```
+pip install -r requirements.txt
+```
+
+(Run all .ipynb files before the next step)
+
+```
+streamlit run app.py
+```
+
 ### Dataset Credit
 **Dataset:** [Retail Store Inventory and Demand Forecasting](https://www.kaggle.com/datasets/atomicd/retail-store-inventory-and-demand-forecasting)
 
